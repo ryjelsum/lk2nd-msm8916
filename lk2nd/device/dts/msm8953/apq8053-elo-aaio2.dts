@@ -4,17 +4,12 @@
 #include <lk2nd.dtsi>
 
 / {
-	// This is used by the bootloader to find the correct DTB
 	qcom,msm-id = <QCOM_ID_APQ8053 0>;
 	qcom,board-id =  <0x00530208 0>;
 };
 
 &lk2nd {
-	elo-aaio-2 {
-		model = "Elo I-Series Android AIO 2.0";
-		compatible = "qcom,apq8053-mtp", "qcom,apq8053", "qcom,mtp";
-
-		lk2nd,dtb-files = "apq8053-elo-aaio2";
-	};
-
+	model = "Elo I-Series Android AIO 2.0";
+	compatible = "qcom,apq8053-mtp", "qcom,apq8053", "qcom,mtp";
+	lk2nd,dtb-files = "apq8053-elo-aaio2";
 };
