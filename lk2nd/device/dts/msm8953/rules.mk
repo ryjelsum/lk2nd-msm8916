@@ -2,7 +2,7 @@
 LOCAL_DIR := $(GET_LOCAL_DIR)
 
 ADTBS += \
-        $(LOCAL_DIR)/apq8053-mtp.dtb \
+        $(LOCAL_DIR)/apq8053-elo-aaio2.dtb \
 	$(LOCAL_DIR)/apq8053-lenovo-cd-18781y.dtb \
 	$(LOCAL_DIR)/msm8953-asus-zenfone3.dtb \
 	$(LOCAL_DIR)/msm8953-flipkart-rimob.dtb \
